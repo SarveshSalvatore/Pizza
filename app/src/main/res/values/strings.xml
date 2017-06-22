@@ -1,0 +1,54 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Pizza</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">Name</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="Varieties">Varieties</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="margherita">Margherita</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="marinara">Marinara</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="chicago_style">Chicago  Style</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="sicilian">Sicilian</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="quantity">Quantity</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=5] -->
+    <string name="initial_quantity_value">0</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="order">Order</string>
+
+    <!--
+      Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+      user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+
+    <string name="order_summary_quantitymarg">Margherita Pizza Quantity: <xliff:g id="margherita_quantity" example="2">%d</xliff:g></string>
+    <string name="order_summary_quantitymari">Marinara Pizza Quantity: <xliff:g id="marinara_quantity" example="2">%d</xliff:g></string>
+    <string name="order_summary_quantitychic">Chicago Style Pizza Quantity: <xliff:g id="chicago_quantity" example="2">%d</xliff:g></string>
+    <string name="order_summary_quantitysici">Sicilian Style Pizza Quantity: <xliff:g id="sicilian_quantity" example="2">%d</xliff:g></string>
+    <!--
+      Total price for the order summary. It will be shown in the format of
+      "Total: $10" where $10 is the price. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_price">Total: <xliff:g id="price" example="$10">%s</xliff:g></string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="thank_you">Thank you!</string>
+
+
+    <string name="order_summary_email_subject">Pizza order for <xliff:g id="name" example="Amy">%s</xliff:g></string>
+</resources>
